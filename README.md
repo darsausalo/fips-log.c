@@ -1,7 +1,7 @@
-fips-log.c
+fips-logc
 =========
 
-fipsified log.c ( https://github.com/rxi/log.c)
+fipsified logc ( https://github.com/rxi/logc)
 
 fips build system: https://github.com/floooh/fips
 
@@ -11,15 +11,15 @@ Add the dependency to your fips.yml file:
 
 ```yaml
 imports:
-    fips-log.c:
-        git: https://github.com/darsausalo/fips-log.c
+    fips-logc:
+        git: https://github.com/darsausalo/fips-logc
 ```
 
-Use log.c as dependency in your targets:
+Use logc as dependency in your targets:
 
 ```cmake
 fips_begin_*(...)
     ...
-    fips_deps(log.c)
+    fips_deps(logc)
 fips_end_*(...)
 ```
