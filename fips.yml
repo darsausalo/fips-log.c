@@ -1,7 +1,7 @@
-# fips-log.c
+# fips-logc
 ---
 exports:
     header-dirs:
         - log.c/src
     modules:
-        log.c: .
+        logc: .
